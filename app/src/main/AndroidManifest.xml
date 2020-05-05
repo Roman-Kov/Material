@@ -10,10 +10,13 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
+            android:name=".ThemeActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBarMyLight"/>
+        <activity
             android:name=".StartActivity"
             android:label="@string/app_name"
-            android:theme = "@style/AppTheme.NoActionBarMyLight">
-
+            android:theme="@style/AppTheme.NoActionBarMyLight">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <action android:name="android.intent.action.VIEW" />
@@ -23,8 +26,7 @@
         <activity
             android:name=".MainActivity"
             android:label="@string/app_name"
-            android:theme="@style/AppTheme.NoActionBarMyLight">
-        </activity>
+            android:theme="@style/AppTheme.NoActionBarMyLight"/>
     </application>
 
 </manifest>

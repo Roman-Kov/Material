@@ -7,4 +7,8 @@
     <color name="myLightThemeColorPrimary">#4CAF50</color>
     <color name="myLightThemeColorDark">#0a7e07</color>
     <color name="myLightThemeColorAccent">#FF5252</color>
+
+    <color name="myDarkThemeColorPrimary">#3F51B5</color>
+    <color name="myDarkThemeColorDark">#303F9F</color>
+    <color name="myDarkThemeColorAccent">#FF5722</color>
 </resources>

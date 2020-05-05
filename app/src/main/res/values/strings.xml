@@ -17,4 +17,7 @@
     <string name="btnStart">START</string>
     <string name="bottomSheetLabel">Help</string>
     <string name="bottomSheetText">Input Login and press START</string>
+    <string name="lightThemeBtn">Light Theme</string>
+    <string name="DarkThemeBtn">Dark Theme</string>
+    <string name="choseThemeTextView">Chose Theme</string>
 </resources>
