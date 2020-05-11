@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ThemeActivity">
+    tools:context=".presentation.ThemeActivity">
 <TableLayout
     android:id="@+id/choseThemeTableLayout"
     android:layout_width="wrap_content"
@@ -14,15 +14,17 @@
     app:layout_constraintStart_toStartOf="parent"
     app:layout_constraintEnd_toEndOf="parent">
     <com.google.android.material.button.MaterialButton
+        android:id="@+id/lightThemeBtn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/lightThemeBtn"
-        android:background="@color/myLightThemeColorPrimary"/>
+        android:backgroundTint="@color/myLightThemeColorPrimary"/>
     <com.google.android.material.button.MaterialButton
+        android:id="@+id/darkThemeBtn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/DarkThemeBtn"
-        android:background="@color/myDarkThemeColorPrimary"/>
+        android:backgroundTint="@color/myDarkThemeColorPrimary"/>
 </TableLayout>
     <TextView
         android:layout_width="wrap_content"

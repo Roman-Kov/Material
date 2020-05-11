@@ -1,4 +1,4 @@
-package com.rojer_ko.material.ui.share
+package com.rojer_ko.material.presentation.ui.share
 
 import android.os.Bundle
 import android.view.LayoutInflater

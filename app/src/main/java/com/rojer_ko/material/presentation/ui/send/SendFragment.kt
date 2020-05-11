@@ -1,4 +1,4 @@
-package com.rojer_ko.material.ui.send
+package com.rojer_ko.material.presentation.ui.send
 
 import android.os.Bundle
 import android.view.LayoutInflater

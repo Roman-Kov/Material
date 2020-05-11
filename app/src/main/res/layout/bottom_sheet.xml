@@ -9,6 +9,7 @@
     app:behavior_peekHeight="30dp"
     app:layout_behavior="com.google.android.material.bottomsheet.BottomSheetBehavior">
     <TextView
+        android:id="@+id/helpTextView"
         android:layout_width="match_parent"
         android:layout_height="30dp"
         android:gravity="center"
