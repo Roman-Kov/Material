@@ -6,29 +6,40 @@
         <item name="android:statusBarColor">@android:color/transparent</item>
     </style>
 
-    <style name="AppTheme.NoActionBarMyDark" parent="Theme.MaterialComponents.DayNight.NoActionBar">
-        <item name="colorPrimary">#3F51B5</item>
-        <item name="colorPrimaryDark">#303F9F</item>
-        <item name="colorAccent">#FF5722</item>
-        <item name="floatingActionButtonStyle">parent</item>
-    </style>
-    <style name="AppTheme.MyDark" parent="ThemeOverlay.MaterialComponents.Dark">
-        <item name="colorPrimary">@color/myDarkThemeColorPrimary</item>
-        <item name="colorPrimaryDark">@color/myDarkThemeColorDark</item>
-        <item name="colorAccent">@color/myDarkThemeColorAccent</item>
-    </style>
-
-    <style name="AppTheme.NoActionBarMyLight" parent="Theme.MaterialComponents.Light.NoActionBar">
-        <item name="colorPrimary">@color/myLightThemeColorPrimary</item>
-        <item name="colorPrimaryDark">@color/myLightThemeColorDark</item>
-        <item name="colorAccent">@color/myLightThemeColorAccent</item>
-        <item name="floatingActionButtonStyle">parent</item>
-    </style>
-
     <style name="AppTheme.MyLight" parent="Theme.MaterialComponents.Light">
         <item name="colorPrimary">@color/myLightThemeColorPrimary</item>
         <item name="colorPrimaryDark">@color/myLightThemeColorDark</item>
         <item name="colorAccent">@color/myLightThemeColorAccent</item>
+        <item name="android:textColorPrimary">@color/myLightThemeTextColor</item>
+        <item name="android:textColorSecondary">@color/myLightThemeTextColor</item>
+        <item name="android:textColor">@color/myLightThemeTextColor</item>
+        <item name="floatingActionButtonStyle">parent</item>
+        <item name="popupMenuBackground">@color/myLightThemeColorDark</item>
+    </style>
+
+    <style name="AppTheme.MyDark" parent="Theme.MaterialComponents.DayNight">
+        <item name="colorPrimary">@color/myDarkThemeColorPrimary</item>
+        <item name="colorPrimaryDark">@color/myDarkThemeColorDark</item>
+        <item name="colorAccent">@color/myDarkThemeColorAccent</item>
+        <item name="android:windowBackground">@color/myDarkThemeBackgroundColor</item>
+        <item name="android:textColorPrimary">@color/myDarkThemeTextColor</item>
+        <item name="android:textColorSecondary">@color/myDarkThemeTextColor</item>
+        <item name="android:textColor">@color/myDarkThemeTextColor</item>
+        <item name="android:editTextColor">@color/myDarkThemeEditTextColor</item>
+        <item name="floatingActionButtonStyle">parent</item>
+        <item name="popupMenuBackground">@color/myDarkThemeColorDark</item>
+    </style>
+
+    <style name="AppTheme.NoActionBarMyLight" parent="AppTheme.MyLight">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+    </style>
+
+    <style name="AppTheme.NoActionBarMyDark" parent="AppTheme.MyDark">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
     </style>
 
     <style name="CounterErrorStyle" parent="TextAppearance.AppCompat.Small">

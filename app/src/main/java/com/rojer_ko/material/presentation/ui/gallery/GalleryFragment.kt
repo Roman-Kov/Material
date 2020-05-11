@@ -1,4 +1,4 @@
-package com.rojer_ko.material.ui.gallery
+package com.rojer_ko.material.presentation.ui.gallery
 
 import android.os.Bundle
 import android.view.LayoutInflater
