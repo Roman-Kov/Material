@@ -1,13 +1,13 @@
-package com.rojer_ko.material.presentation.ui.send
+package com.rojer_ko.material.presentation.ui.valencia
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 
-class SendViewModel : ViewModel() {
+class ValenciaViewModel : ViewModel() {
 
     private val _text = MutableLiveData<String>().apply {
-        value = "This is send Fragment"
+        value = "This is Valencia"
     }
     val text: LiveData<String> = _text
 }

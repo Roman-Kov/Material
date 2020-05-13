@@ -5,7 +5,7 @@
     android:layout_height="match_parent">
 
     <TextView
-        android:id="@+id/text_home"
+        android:id="@+id/text_trips"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
@@ -18,37 +18,37 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <LinearLayout
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
         android:orientation="vertical"
-        app:layout_constraintTop_toBottomOf="@id/text_home"
+        app:layout_constraintTop_toBottomOf="@id/text_trips"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent">
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Button 1"
-            android:layout_marginTop="20dp"
-            style="@style/Widget.MaterialComponents.Button.TextButton"/>
-        <Button
 
+        <ProgressBar
+            android:id="@+id/progressBarLine"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="visible"
+            android:indeterminate="true"
+            style="@style/Widget.AppCompat.ProgressBar.Horizontal"/>
+        <Button
+            android:id="@+id/progressBarShowBtn"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Button 2"
+            android:layout_gravity="center"
+            android:text="SHOW Progress Bar"
             android:layout_marginTop="20dp"
-            style="?attr/materialButtonOutlinedStyle"/>
+            android:drawableLeft="@drawable/ic_play_arrow_white_24dp"/>
         <Button
+            android:id="@+id/progressBarHideBtn"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Button 3"
-            android:layout_marginTop="20dp"/>
-        <Button
-            android:background="@drawable/my_btn_bg"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Button 4"
-            android:layout_marginTop="20dp"/>
+            android:layout_gravity="center"
+            android:text="HIDE Progress Bar"
+            android:layout_marginTop="20dp"
+            android:drawableLeft="@drawable/ic_stop_white_24dp"/>
 
     </LinearLayout>
 

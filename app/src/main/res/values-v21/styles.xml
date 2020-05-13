@@ -46,4 +46,8 @@
         <item name="android:textColor">@android:color/holo_red_dark</item>
     </style>
 
+    <style name="MyBtnStyle" parent="Widget.MaterialComponents.Button">
+        <item name="android:background">@drawable/my_btn_bg</item>
+    </style>
+
 </resources>

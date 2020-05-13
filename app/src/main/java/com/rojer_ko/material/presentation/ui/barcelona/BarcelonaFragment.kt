@@ -1,4 +1,4 @@
-package com.rojer_ko.material.presentation.ui.share
+package com.rojer_ko.material.presentation.ui.barcelona
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -10,20 +10,20 @@ import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProviders
 import com.rojer_ko.material.R
 
-class ShareFragment : Fragment() {
+class BarcelonaFragment : Fragment() {
 
-    private lateinit var shareViewModel: ShareViewModel
+    private lateinit var toolsViewModel: BarcelonaViewModel
 
     override fun onCreateView(
         inflater: LayoutInflater,
         container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        shareViewModel =
-            ViewModelProviders.of(this).get(ShareViewModel::class.java)
-        val root = inflater.inflate(R.layout.fragment_share, container, false)
-        val textView: TextView = root.findViewById(R.id.text_share)
-        shareViewModel.text.observe(this, Observer {
+        toolsViewModel =
+            ViewModelProviders.of(this).get(BarcelonaViewModel::class.java)
+        val root = inflater.inflate(R.layout.fragment_barcelona, container, false)
+        val textView: TextView = root.findViewById(R.id.text_barcelona)
+        toolsViewModel.text.observe(this, Observer {
             textView.text = it
         })
         return root

@@ -1,4 +1,4 @@
-package com.rojer_ko.material.presentation.ui.tools
+package com.rojer_ko.material.presentation.ui.transport
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -10,20 +10,20 @@ import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProviders
 import com.rojer_ko.material.R
 
-class ToolsFragment : Fragment() {
+class TransportFragment : Fragment() {
 
-    private lateinit var toolsViewModel: ToolsViewModel
+    private lateinit var transportViewModel: TransportViewModel
 
     override fun onCreateView(
         inflater: LayoutInflater,
         container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        toolsViewModel =
-            ViewModelProviders.of(this).get(ToolsViewModel::class.java)
-        val root = inflater.inflate(R.layout.fragment_tools, container, false)
-        val textView: TextView = root.findViewById(R.id.text_tools)
-        toolsViewModel.text.observe(this, Observer {
+        transportViewModel =
+            ViewModelProviders.of(this).get(TransportViewModel::class.java)
+        val root = inflater.inflate(R.layout.fragment_transport, container, false)
+        val textView: TextView = root.findViewById(R.id.text_transport)
+        transportViewModel.text.observe(this, Observer {
             textView.text = it
         })
         return root
