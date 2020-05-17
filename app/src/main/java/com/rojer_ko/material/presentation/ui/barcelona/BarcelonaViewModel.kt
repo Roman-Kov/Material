@@ -10,4 +10,8 @@ class BarcelonaViewModel : ViewModel() {
         value = "This is Barcelona"
     }
     val text: LiveData<String> = _text
+
+    fun update(result: String){
+        _text.value = result
+    }
 }
