@@ -5,33 +5,33 @@
 
     <group android:checkableBehavior="single">
         <item
-            android:id="@+id/nav_home"
-            android:icon="@drawable/ic_menu_camera"
-            android:title="@string/menu_home" />
+            android:id="@+id/nav_trips"
+            android:icon="@drawable/ic_directions_walk_black_24dp"
+            android:title="@string/menu_trips" />
         <item
             android:id="@+id/nav_gallery"
-            android:icon="@drawable/ic_menu_gallery"
+            android:icon="@drawable/ic_collections_black_24dp"
             android:title="@string/menu_gallery" />
         <item
-            android:id="@+id/nav_slideshow"
-            android:icon="@drawable/ic_menu_slideshow"
-            android:title="@string/menu_slideshow" />
-        <item
-            android:id="@+id/nav_tools"
-            android:icon="@drawable/ic_menu_manage"
-            android:title="@string/menu_tools" />
+            android:id="@+id/nav_transport"
+            android:icon="@drawable/ic_directions_bus_black_24dp"
+            android:title="@string/menu_transport" />
     </group>
 
-    <item android:title="Communicate">
+    <item android:title="Main airports">
         <menu>
             <item
-                android:id="@+id/nav_share"
-                android:icon="@drawable/ic_menu_share"
-                android:title="@string/menu_share" />
+                android:id="@+id/nav_barcelona"
+                android:icon="@drawable/ic_flight_black_24dp"
+                android:title="@string/menu_barcelona" />
             <item
-                android:id="@+id/nav_send"
-                android:icon="@drawable/ic_menu_send"
-                android:title="@string/menu_send" />
+                android:id="@+id/nav_madrid"
+                android:icon="@drawable/ic_flight_black_24dp"
+                android:title="@string/menu_madrid" />
+            <item
+                android:id="@+id/nav_valencia"
+                android:icon="@drawable/ic_flight_black_24dp"
+                android:title="@string/menu_valencia" />
         </menu>
     </item>
 
