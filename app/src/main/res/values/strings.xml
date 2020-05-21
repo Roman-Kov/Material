@@ -2,17 +2,18 @@
     <string name="app_name">Material</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
-    <string name="nav_header_title">Android Studio</string>
-    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_title">Spanish guide</string>
+    <string name="nav_header_subtitle">https://spanishtrip.ru/</string>
     <string name="nav_header_desc">Navigation header</string>
     <string name="action_settings">Settings</string>
 
-    <string name="menu_home">Home</string>
+    <string name="menu_trips">Trips</string>
     <string name="menu_gallery">Gallery</string>
-    <string name="menu_slideshow">Slideshow</string>
-    <string name="menu_tools">Tools</string>
-    <string name="menu_share">Share</string>
-    <string name="menu_send">Send</string>
+    <string name="menu_transport">Transport</string>
+    <string name="menu_barcelona">Barcelona</string>
+    <string name="menu_madrid">Madrid</string>
+    <string name="menu_valencia">Valencia</string>
+
     <string name="loginHint">Login</string>
     <string name="btnStart">START</string>
     <string name="bottomSheetLabel">Help</string>
@@ -20,4 +21,32 @@
     <string name="lightThemeBtn">Light Theme</string>
     <string name="DarkThemeBtn">Dark Theme</string>
     <string name="choseThemeTextView">Chose Theme</string>
+    <string name="btnExit">EXIT</string>
+    <string name="fab_my_behavior">.presentation.common.FAB_Hide_on_Scroll</string>
+
+    <string name="barcelonaTale">Barcelona es una ciudad española,
+        capital de la comunidad autónoma de Cataluña, de la comarca
+        del Barcelonés y de la provincia homónima.
+
+        Con una población de 1 636 762 habitantes en 2019,6​ es la
+        segunda ciudad más poblada de España después de Madrid, y la
+        décima de la Unión Europea. El área metropolitana de Barcelona
+        tiene 3 291 654 (2019),7​ y el ámbito metropolitano de Barcelona,
+        cuenta con 4 895 876 habitantes (2019), siendo así la quinta ciudad
+        de mayor población de la Unión Europea.8​9​
+
+        La ciudad cuenta con un PIB nominal de 142 223 millones USD y un
+        PIB per cápita nominal de 30 619 USD, lo que representa un PIB PPA
+        per cápita de 36 240 USD,10​ siendo la segunda área metropolitana
+        española en actividad económica; y la décimoseptima de Europa
+        por detrás de: Londres, París, Rin-Ruhr, Ámsterdam, Milán, Bruselas,
+        Moscú, Fráncfort del Meno, Múnich, Madrid, Berlín, Viena, Roma,
+        Copenhague, Estocolmo, Birmingham.
+        Se ubica a la orilla del mar Mediterráneo, a unos 120 km al sur de
+        la cadena montañosa de los Pirineos y de la frontera con Francia,
+        en un pequeño llano litoral limitado por el mar al este, la sierra
+        de Collserola al oeste, el río Llobregat al sur y el río Besós al norte.
+        Por haber sido capital del condado de Barcelona, se suele aludir a ella
+        con la denominación antonomástica de Ciudad Condal.
+    </string>
 </resources>
