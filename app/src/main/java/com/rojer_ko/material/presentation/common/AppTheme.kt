@@ -1,4 +1,4 @@
-package com.rojer_ko.material.presentation.extensions
+package com.rojer_ko.material.presentation.common
 
 import com.rojer_ko.material.R
 

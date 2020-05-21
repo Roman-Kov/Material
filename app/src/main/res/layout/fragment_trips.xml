@@ -26,29 +26,11 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent">
 
-        <ProgressBar
-            android:id="@+id/progressBarLine"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:visibility="visible"
-            android:indeterminate="true"
-            style="@style/Widget.AppCompat.ProgressBar.Horizontal"/>
-        <Button
-            android:id="@+id/progressBarShowBtn"
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/tripRecyclerView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:text="SHOW Progress Bar"
-            android:layout_marginTop="20dp"
-            android:drawableLeft="@drawable/ic_play_arrow_white_24dp"/>
-        <Button
-            android:id="@+id/progressBarHideBtn"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:text="HIDE Progress Bar"
-            android:layout_marginTop="20dp"
-            android:drawableLeft="@drawable/ic_stop_white_24dp"/>
+            android:scrollbars="vertical"/>
 
     </LinearLayout>
 

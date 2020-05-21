@@ -2,10 +2,8 @@ package com.rojer_ko.material.presentation
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.util.Log
-import com.rojer_ko.material.R
-import com.rojer_ko.material.presentation.extensions.appTheme
-import com.rojer_ko.material.presentation.extensions.setMyTheme
+import com.rojer_ko.material.presentation.common.appTheme
+import com.rojer_ko.material.presentation.common.setMyTheme
 
 abstract class BaseActivity : AppCompatActivity() {
 
@@ -14,7 +12,6 @@ abstract class BaseActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
 
-        Log.e("Error", isAppBar.toString())
         setTheme(setMyTheme(appTheme, isAppBar))
         super.onCreate(savedInstanceState)
         setContentView(layoutRes)

@@ -5,8 +5,8 @@ import android.os.Bundle
 import android.view.View
 import androidx.core.app.TaskStackBuilder
 import com.rojer_ko.material.R
-import com.rojer_ko.material.presentation.extensions.Theme
-import com.rojer_ko.material.presentation.extensions.appTheme
+import com.rojer_ko.material.presentation.common.Theme
+import com.rojer_ko.material.presentation.common.appTheme
 import kotlinx.android.synthetic.main.activity_theme.*
 
 class ThemeActivity : BaseActivity(), View.OnClickListener {

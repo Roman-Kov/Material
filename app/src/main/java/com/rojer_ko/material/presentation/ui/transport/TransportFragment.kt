@@ -9,6 +9,7 @@ import androidx.fragment.app.Fragment
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProviders
 import com.rojer_ko.material.R
+import kotlinx.android.synthetic.main.fragment_transport.*
 
 class TransportFragment : Fragment() {
 
@@ -27,5 +28,19 @@ class TransportFragment : Fragment() {
             textView.text = it
         })
         return root
+    }
+    override fun onActivityCreated(savedInstanceState: Bundle?) {
+        super.onActivityCreated(savedInstanceState)
+        useProgressBar()
+    }
+
+    private fun useProgressBar(){
+        progressBarShowBtn.setOnClickListener {
+            progressBarLine.visibility = View.VISIBLE
+        }
+
+        progressBarHideBtn.setOnClickListener {
+            progressBarLine.visibility = View.INVISIBLE
+        }
     }
 }

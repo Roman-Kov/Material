@@ -1,4 +1,4 @@
-package com.rojer_ko.material.presentation.extensions
+package com.rojer_ko.material.presentation.common
 
 import android.annotation.SuppressLint
 import android.content.Context

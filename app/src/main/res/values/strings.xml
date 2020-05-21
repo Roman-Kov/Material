@@ -22,7 +22,7 @@
     <string name="DarkThemeBtn">Dark Theme</string>
     <string name="choseThemeTextView">Chose Theme</string>
     <string name="btnExit">EXIT</string>
-    <string name="fab_my_behavior">.presentation.extensions.FAB_Hide_on_Scroll</string>
+    <string name="fab_my_behavior">.presentation.common.FAB_Hide_on_Scroll</string>
 
     <string name="barcelonaTale">Barcelona es una ciudad española,
         capital de la comunidad autónoma de Cataluña, de la comarca
