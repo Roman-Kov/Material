@@ -49,4 +49,7 @@
         Por haber sido capital del condado de Barcelona, se suele aludir a ella
         con la denominación antonomástica de Ciudad Condal.
     </string>
+    <string name="title_activity_gallary">GallaryActivity</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
 </resources>
