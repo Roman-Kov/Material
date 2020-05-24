@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="trips_title">
+        <item>Ruta por la provincia de Ávila</item>
+        <item>Los pueblos más bonitos de León</item>
+        <item>Los 10 pueblos más bonitos de la provincia de Albacete</item>
+        <item>Ruta por la provincia de Toledo</item>
+        <item>Los 10 pueblos más bonitos de Salamanca</item>
+        <item>Ruta por la provincia de Burgos</item>
+    </string-array>
+
+    <string-array name="trips_photo">
+        <item>@drawable/trip_1</item>
+        <item>@drawable/trip_2</item>
+        <item>@drawable/trip_3</item>
+        <item>@drawable/trip_4</item>
+        <item>@drawable/trip_5</item>
+        <item>@drawable/trip_6</item>
+    </string-array>
+    <string-array name="trips_description">
+        <item>Piedrahita está situada al suroeste de la provincia de Ávila y dentro del Valle del Corneja.</item>
+        <item>El Camino de Santiago francés atraviesa la provincia de León de este a oeste con más de 200 km de senderos.</item>
+        <item>Hoy saltamos a la provincia de Albacete, esa gran desconocida, para recorrer alguno de sus pueblos más bonitos.</item>
+        <item>Hoy nos acercamos a Torrijos, situado a tan solo 29 km de Toledo, conserva un importante patrimonio gracias a Gutierre de Cárdenas</item>
+        <item>En Salamanca más allá de su capital, podemos descubrir una provincia llena de pueblos preciosos, con tradiciones únicas, gastronomía, arquitectura y naturaleza</item>
+        <item>La semana pasada celebramos el cuarto aniversario de la Asociación Castilla y León Travel Bloggers</item>
+    </string-array>
+</resources>
