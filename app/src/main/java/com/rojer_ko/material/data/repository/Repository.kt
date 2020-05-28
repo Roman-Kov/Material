@@ -7,11 +7,10 @@ import com.rojer_ko.material.R
 import com.rojer_ko.material.data.model.Trip
 
 object Repository {
-    private val trips : MutableList<Trip>
+    private val trips : MutableList<Trip> = mutableListOf()
 
     init {
 
-        trips = mutableListOf()
         initTrips(App.getAppContext())
     }
 

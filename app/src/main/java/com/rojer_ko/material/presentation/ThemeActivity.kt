@@ -4,9 +4,9 @@ import android.content.Intent
 import android.os.Bundle
 import android.view.View
 import androidx.core.app.TaskStackBuilder
+import com.rojer_ko.material.App
 import com.rojer_ko.material.R
 import com.rojer_ko.material.presentation.common.Theme
-import com.rojer_ko.material.presentation.common.appTheme
 import kotlinx.android.synthetic.main.activity_theme.*
 
 class ThemeActivity : BaseActivity(), View.OnClickListener {
@@ -23,11 +23,11 @@ class ThemeActivity : BaseActivity(), View.OnClickListener {
     override fun onClick(v: View) {
         when (v.id) {
             R.id.lightThemeBtn -> {
-                appTheme = Theme.LIGHT
+                App.setAppTheme(Theme.LIGHT)
                 refreshActivity()
             }
             R.id.darkThemeBtn -> {
-                appTheme = Theme.DARK
+                App.setAppTheme(Theme.DARK)
                 refreshActivity()
             }
         }

@@ -2,10 +2,17 @@ package com.rojer_ko.material.presentation.common
 
 import com.rojer_ko.material.R
 
-var appTheme : Theme = Theme.LIGHT
-
 enum class Theme{
     LIGHT, DARK
+}
+
+fun getThemeFromString(theme: String):Theme{
+
+    when (theme){
+        "LIGHT" -> return Theme.LIGHT
+        "DARK" -> return Theme.DARK
+    }
+    return Theme.LIGHT
 }
 
 fun setMyTheme(theme : Theme, isAppBar : Boolean): Int {
